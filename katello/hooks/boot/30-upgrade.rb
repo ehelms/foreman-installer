@@ -1,7 +1,7 @@
 app_option(
   '--upgrade',
   :flag,
-  "Run the steps necessary for an upgrade such as migrations, rake tasks, etc.",
+  "Deprecated. Please run the installer without the use of this flag from here on. The installer will ensure the proper state for all cases.",
   :default => false
 )
 app_option(
