@@ -5,3 +5,5 @@ apache::mod::ssl::ssl_protocol:
   - 'ALL'
   - '-TLSv1'
   - '-TLSv1.1'
+
+postgresql::globals::version: '12'
